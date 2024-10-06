@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <libros>
+<!-- esto es un comentario -->
     <libro pag="250">
-    <titulo > Titulo 1 </titulo>
-         <autor> Autor 1 </autor>
+         <titulo > Titulo 1 </titulo>
+         <autor nac="ESP"> Autor 1 <![CDATA[<b>texto</b> <i>libre</i>]]></autor>
          <editorial> Editoria 1 </editorial>
-        </libro>
+         <resumen/>
+    </libro>
     <libro pag="500">
         <titulo> Titulo 2 </titulo>
-        <autor> Autor 2 </autor>
+        <autores>
+        <autor> &apos;Autor 2 </autor>
+        <autor> Autor 3 </autor>
+        </autores>
         <editorial> Editoria 2 </editorial>
     </libro>
 </libros>

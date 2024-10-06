@@ -45,7 +45,8 @@
             <td><%= user.isEstatus() ? "Activo" : "Inactivo" %></td>
             <td>
                 <button class="btn btn-primary" onclick="mostrarModal(<%= user.getId() %>)">Editar</button>
-                <button class="btn btn-warning" onclick="cambiarEstatus(<%= user.getId() %>, <%= !user.isEstatus() %>)">
+                <button class="btn btn-warning" 
+                        onclick="cambiarEstatus(<%= user.getId() %>, '<%= user.isEstatus() ? 'false' : 'true' %>')">
                     <%= user.isEstatus() ? "Inhabilitar" : "Habilitar" %>
                 </button>
             </td>
@@ -114,7 +115,6 @@
 
 <script>
     function mostrarModal(id) {
-        // Hacer una solicitud AJAX para obtener los datos del usuario por ID y rellenar el formulario
         $.get('ObtenerUsuarioServlet', {id: id}, function (data) {
             $('#userId').val(data.id);
             $('#nombre').val(data.nombre);
@@ -154,6 +154,7 @@
     }
 
     function cambiarEstatus(id, nuevoEstatus) {
+        console.log("ID: ", id, "Nuevo Estatus: ", nuevoEstatus);  // Depuración
         $.post('CambiarEstatusServlet', {id: id, estatus: nuevoEstatus}, function () {
             location.reload();
         });
