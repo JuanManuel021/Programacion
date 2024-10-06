@@ -1,0 +1,98 @@
+package mx.edu.utez.pruebaf.dao;
+
+import mx.edu.utez.pruebaf.model.User;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserDao {
+    private Connection connection;
+
+    public UserDao() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/SCAD_DATABASE_PRUEBAS", "root", "password");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public List<User> getAll() {
+        List<User> users = new ArrayList<>();
+        try {
+            String query = "SELECT * FROM Usuarios";
+            Statement stmt = connection.createStatement();
+            ResultSet rs = stmt.executeQuery(query);
+            while (rs.next()) {
+                User user = new User();
+                user.setId(rs.getInt("id"));
+                user.setNombre(rs.getString("nombre"));
+                user.setApellido(rs.getString("apellido"));
+                user.setCorreo(rs.getString("correo"));
+                user.setPuesto(rs.getString("puesto"));
+                user.setEsAdmin(rs.getBoolean("es_admin"));
+                user.setRfc(rs.getString("rfc"));
+                user.setEstatus(rs.getBoolean("estatus"));
+                users.add(user);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return users;
+    }
+
+    public User getUserById(int id) {
+        User user = new User();
+        try {
+            String query = "SELECT * FROM Usuarios WHERE id = ?";
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setInt(1, id);
+            ResultSet rs = stmt.executeQuery();
+            if (rs.next()) {
+                user.setId(rs.getInt("id"));
+                user.setNombre(rs.getString("nombre"));
+                user.setApellido(rs.getString("apellido"));
+                user.setCorreo(rs.getString("correo"));
+                user.setPuesto(rs.getString("puesto"));
+                user.setEsAdmin(rs.getBoolean("es_admin"));
+                user.setRfc(rs.getString("rfc"));
+                user.setEstatus(rs.getBoolean("estatus"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
+
+    public boolean updateUser(User user) {
+        try {
+            String query = "UPDATE Usuarios SET nombre = ?, apellido = ?, correo = ?, puesto = ?, es_admin = ?, rfc = ?, estatus = ? WHERE id = ?";
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setString(1, user.getNombre());
+            stmt.setString(2, user.getApellido());
+            stmt.setString(3, user.getCorreo());
+            stmt.setString(4, user.getPuesto());
+            stmt.setBoolean(5, user.isEsAdmin());
+            stmt.setString(6, user.getRfc());
+            stmt.setBoolean(7, user.isEstatus());
+            stmt.setInt(8, user.getId());
+            return stmt.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean toggleStatus(int id, boolean status) {
+        try {
+            String query = "UPDATE Usuarios SET estatus = ? WHERE id = ?";
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setBoolean(1, status);
+            stmt.setInt(2, id);
+            return stmt.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+}

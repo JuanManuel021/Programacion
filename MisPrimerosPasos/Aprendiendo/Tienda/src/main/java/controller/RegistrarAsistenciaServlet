@@ -1,0 +1,30 @@
+package mx.edu.utez.pruebaf.servlet;
+
+import mx.edu.utez.pruebaf.dao.AsistenciaDao;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@WebServlet("/registrarAsistencia")
+public class RegistrarAsistenciaServlet extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int idUsuario = Integer.parseInt(request.getParameter("idUsuario"));
+        
+        AsistenciaDao dao = new AsistenciaDao();
+        boolean result = dao.registrarAsistencia(idUsuario);
+
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+
+        if (result) {
+            response.getWriter().write("{\"success\": true}");
+        } else {
+            response.getWriter().write("{\"success\": false}");
+        }
+    }
+}

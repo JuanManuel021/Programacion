@@ -1,0 +1,37 @@
+package mx.edu.utez.pruebaf.servlet;
+
+import mx.edu.utez.pruebaf.dao.UserDao;
+import mx.edu.utez.pruebaf.model.User;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@WebServlet("/ActualizarUsuarioServlet")
+public class ActualizarUsuarioServlet extends HttpServlet {
+
+    private final UserDao userDao = new UserDao();
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int id = Integer.parseInt(req.getParameter("id"));
+        String nombre = req.getParameter("nombre");
+        String apellido = req.getParameter("apellido");
+        String correo = req.getParameter("correo");
+        String puesto = req.getParameter("puesto");
+        boolean esAdmin = Boolean.parseBoolean(req.getParameter("esAdmin"));
+        String rfc = req.getParameter("rfc");
+        boolean estatus = Boolean.parseBoolean(req.getParameter("estatus"));
+
+        User user = new User(id, nombre, apellido, correo, puesto, esAdmin, rfc, estatus);
+        if (userDao.updateUser(user)) {
+            resp.sendRedirect("gestionUsuario.jsp");
+        } else {
+            resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error al actualizar el usuario");
+        }
+    }
+}
+

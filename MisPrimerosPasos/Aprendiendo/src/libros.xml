@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<libros>
+    <libro pag="250">
+    <titulo > Titulo 1 </titulo>
+         <autor> Autor 1 </autor>
+         <editorial> Editoria 1 </editorial>
+        </libro>
+    <libro pag="500">
+        <titulo> Titulo 2 </titulo>
+        <autor> Autor 2 </autor>
+        <editorial> Editoria 2 </editorial>
+    </libro>
+</libros>
+
+
+

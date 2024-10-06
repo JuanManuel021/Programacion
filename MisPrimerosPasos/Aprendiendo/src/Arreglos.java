@@ -1,4 +1,4 @@
-public class App {
+public class Arreglos {
     public static void main(String[] args) throws Exception {
      //Los arreglos se declaran:
      int [] datos;
@@ -49,7 +49,6 @@ public class App {
         arregloAgregado[arregloAgregado.length-1]=10;
         System.out.println("-----------Arreglo agregando un valor mas------------------------------------------");
         for(i=0;i<arregloAgregado.length;i++){
-           
             System.out.println(arregloAgregado[i]);
         }
 

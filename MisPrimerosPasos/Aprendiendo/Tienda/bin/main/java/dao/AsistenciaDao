@@ -1,0 +1,24 @@
+package mx.edu.utez.pruebaf.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import mx.edu.utez.pruebaf.utils.ConnectionMySQL;
+
+public class AsistenciaDao {
+
+    public boolean registrarAsistencia(int idUsuario) {
+        String query = "INSERT INTO Asistencia (idUsuario) VALUES (?)";
+        
+        try (Connection con = ConnectionMySQL.getConnection();
+             PreparedStatement ps = con.prepareStatement(query)) {
+             
+            ps.setInt(1, idUsuario);
+            return ps.executeUpdate() > 0;
+            
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+}
