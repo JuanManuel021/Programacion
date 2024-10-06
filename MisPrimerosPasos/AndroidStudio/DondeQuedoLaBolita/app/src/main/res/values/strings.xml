@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dónde quedó la bolita</string>
+    <string name="correct_guess">¡Adivinaste correctamente!</string>
+    <string name="wrong_guess">Lo siento, la bola estaba en el cuadro %1$d</string>
+</resources>
