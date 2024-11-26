@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95116d70-5863-428e-8d14-cded30f08f26" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AndroidStudio/.idea/AndroidStudio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplicaciones Web/Angular/frontPrueba.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplicaciones Web/Angular/frontendPrueba.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aplicaciones Web/Angular/prueba.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/src/main/java/com/company/books/backend/ExampleHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/src/main/java/com/company/books/backend/ExampleLinkedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/Maps/src/main/java/com/company/books/backend/ExampleTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/src/main/java/com/company/books/backend/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estructura de datos/SinglyLinkedList/src/main/java/com/company/books/backend/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamUnit4/src/main/java/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamUnit4/src/main/java/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamUnit4/src/main/java/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ExamenUnid4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/test/java/AreaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecuperaUnit3/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecuperaUnit3/src/main/java/ListasEnlazadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecuperaUnit3/src/main/java/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidStudio/Divisas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidStudio/Divisas/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidStudio/Multilenguaje4F/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidStudio/Multilenguaje4F/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/controller/ActualizarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/controller/EliminarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/controller/RegistrarAsistenciaServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/controller/RegistrarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/dao/AsistenciaDao" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/dao/UserDao" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/model/User" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/java/utils/DatabaseConnectionManager" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/CSS/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/CSS/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/CSS/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/CSS/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/dataTables.bootstrap5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/es-MX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/jquery-3.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/JS/menuHamb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/WEB-INF/reporteActivos.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/WEB-INF/revisiones.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/gestionUsuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/botonAgregar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/botonEliminar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/descripScad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/footerWaves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/headerWave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/logo_mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/mpLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/nombreScad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/p_rev-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/scad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/utezLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/img/x_rev-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/registrarUsuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/resources/GempireRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/bin/main/webapp/resources/GempireRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/controller/ActualizarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/controller/EliminarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/controller/RegistrarAsistenciaServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/controller/RegistrarUsuarioServlet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/dao/AsistenciaDao" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/dao/UserDao" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/model/User" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/java/utils/DatabaseConnectionManager" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/CSS/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/CSS/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/CSS/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/CSS/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/dataTables.bootstrap5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/es-MX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/jquery-3.7.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/JS/menuHamb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/WEB-INF/reporteActivos.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/WEB-INF/revisiones.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/gestionUsuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/botonAgregar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/botonEliminar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/descripScad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/footerWaves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/headerWave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/logo_mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/mpLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/nombreScad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/p_rev-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/scad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/utezLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/img/x_rev-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/registrarUsuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/resources/GempireRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/Tienda/src/main/webapp/resources/GempireRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/bin/Arreglos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/bin/libros.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/src/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/src/Arreglos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aprendiendo/src/libros.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/bin/Bonificable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/bin/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/bin/EmpleadoBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/bin/EmpleadoPorHora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoPorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Estructura de datos/Trabajo/src/EmpleadoPorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prueba.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pG4IXKWLm03HpQ4xGt6e45bppJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chave/Desktop/Programacion/MisPrimerosPasos/ExamenUnid4&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95116d70-5863-428e-8d14-cded30f08f26" name="Changes" comment="" />
+      <created>1732378998748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732378998748</updated>
+      <workItem from="1732378999848" duration="20000" />
+      <workItem from="1732510492409" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

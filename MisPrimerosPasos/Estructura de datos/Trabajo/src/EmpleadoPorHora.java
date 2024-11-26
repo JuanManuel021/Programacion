@@ -24,7 +24,7 @@ public void setPagoPorHora(double pagoPorHora) {
 }
 
 
-@Override
+@Override//sobrescribir 
 public double calcularSueldo() {
     return horasTarbajadas*pagoPorHora;
 }
